@@ -1,0 +1,76 @@
+.prikaz{
+    display: flex;
+}
+.slika{
+    
+    width:700px;
+    
+
+}
+.spec{
+    
+    height: 70%;
+    width:35%;
+    opacity: 0.7;
+    background-color: grey;
+    text-align: center;
+    color: orange;
+    padding-left:20px;
+    
+}
+img{
+    
+    height:100%;
+    
+}
+
+li{
+    list-style-type: none;
+    font-size: 30px;
+}
+.korisnik{
+    background-color: grey;
+    
+    color: orange;
+    padding-left:20px;
+}
+.spec label{
+    color: black;
+    font-size: 50px;
+}
+.korisnik label{
+    color: black;
+    font-size: 30px;
+}
+.slider-inner{
+    width:800px;
+    height:500px;
+    position:relative;
+    overflow:hidden;
+    float:left;
+    padding:3px;
+  }
+  .slider-inner img{
+    display:none;
+    width:800px;
+    height:500px;
+  }
+  .slider-inner img.active{
+    display:inline-block;
+  }
+  .prev,.next{
+    float:left;
+    margin-top:130px;
+    cursor:pointer;
+    height: 40px;
+  }
+  .prev{
+    position:relative;
+    margin-right:-45px;
+    z-index:100;
+  }
+  .next{
+    position:relative;
+    margin-left:-45px;
+    z-index:100;
+  }
